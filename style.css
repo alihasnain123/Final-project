@@ -3,7 +3,12 @@
 	padding: 0;
 }
 
-
+.hd{
+	background-color: #316DC3;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
 .list{
 
 	list-style: none;
@@ -15,4 +20,38 @@
 .list li{
 
 	padding-left:  20px;
+}
+
+.text{
+	color: white;
+	margin-top: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+	margin-top: 13px;
+}
+.btn button{
+
+	width: 80px;
+	height: 25px;
+	border: 1px #006618;
+}
+.btn button a{
+	text-decoration: none;
+	color: #427900;
+	font-size: 13px;
+
+}
+
+.hd2{
+	background-color: whitesmoke;
+	
+	
+}
+
+.hd2 div img{
+	margin-left: 50px;
+	height: 70px;
+	width: 250px;
 }
