@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .hd{
@@ -25,7 +26,7 @@
 .text{
 	color: white;
 	margin-top: 15px;
-	font-family: 'Open Sans', sans-serif;
+	
 }
 
 .btn{
@@ -46,12 +47,79 @@
 
 .hd2{
 	background-color: whitesmoke;
-	
-	
+	display: flex;
+}
+.hd2 nav{
+	padding: 10px;
+	margin-left:  100px;
 }
 
 .hd2 div img{
 	margin-left: 50px;
 	height: 70px;
 	width: 250px;
+}
+
+
+
+
+nav ul li{
+	background-color: whitesmoke;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a{
+ 
+	display: inline-block;
+	padding: 8px 16px;
+	color: black;
+	font-weight: 600;
+	text-decoration: none;
+	line-height: 1.42857143;
+	font-size: 13px;
+	border-radius: 30px ;
+	outline: 0;
+}
+
+nav ul li a:hover{
+	background: #316DC3;
+}
+
+nav ul ul{
+	position: absolute;
+	top: 30px;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+    
+    top: 33px;
+
+}
+
+nav ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+nav ul ul ul li{
+	position: relative;
+	top: -20px;
+	left: 150px;
+	font-size: 8px;
+}
+
+.active{
+	background-color: #316DC3;
+}
+
+.hd2 div .navbar ul > li a {
+
+	padding: 7px;
+
+
 }
