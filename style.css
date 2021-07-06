@@ -48,10 +48,12 @@
 .hd2{
 	background-color: whitesmoke;
 	display: flex;
+
 }
 .hd2 nav{
 	padding: 10px;
 	margin-left:  100px;
+
 }
 
 .hd2 div img{
@@ -81,10 +83,18 @@ nav ul li a{
 	font-size: 13px;
 	border-radius: 30px ;
 	outline: 0;
+	z-index: 6;
 }
 
 nav ul li a:hover{
 	background: #316DC3;
+
+}
+
+nav ul li ul a:hover{
+	background: #316DC3;
+	border-radius: 0;
+	
 }
 
 nav ul ul{
@@ -122,4 +132,122 @@ nav ul ul ul li{
 	padding: 7px;
 
 
+}
+
+main{
+	clear: both;
+}
+#mainig {
+    margin-left: 90px; 
+	width: 1000px;
+}
+
+.it{
+
+	color: #316DC3;
+	line-height: 1;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.it2{
+
+		
+	color: #427900;
+	
+}
+
+.it3{
+	text-align: justify;
+	padding: 20px ;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.9;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+footer{
+	background-color: #666666;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer p{
+	text-align: justify;
+	padding: 20px ;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.9;
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+footer ul{
+    margin-top: 0;
+	padding: 0 20px 20px 20px;
+	list-style: none;
+
+}
+
+footer ul li i {
+
+	color: #427900;
+
+}
+footer ul li{
+
+	line-height: 1.5;
+	color: whitesmoke;
+}
+
+footer h2{
+
+	text-align: justify;
+	padding: 20px ;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+   
+    color: whitesmoke;
+   
+    font-family: 'Open Sans', sans-serif;
+}
+
+#message{
+ width: 1000px;
+ margin: 0 110px;
+}
+
+#mstext{
+	text-align: justify;
+	padding: 20px ;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+   
+    
+
+}
+main h1{
+	color:#316DC3 ;
+
+	margin-left: 20px;
+}
+main form div {
+   margin-left: 20px;
+	padding: 10px;
+}
+
+
+main form input{
+	width: 200px;
+	height: 30px;
 }
